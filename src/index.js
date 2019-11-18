@@ -1,10 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router } from 'react-router-dom'
-import HomePage from './components/home/HomePage'
+import App from './components/App'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
 
 render(
   <Router>
-    <HomePage />
+    <App />
   </Router>, document.getElementById("app"));
