@@ -8,4 +8,5 @@ import './index.css'
 render(
   <Router>
     <App />
-  </Router>, document.getElementById("app"));
+  </Router>
+, document.getElementById("app"));
