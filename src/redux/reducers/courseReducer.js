@@ -1,6 +1,6 @@
 'use strict'
 
-export default const courseReducer = (state = [], action) => {
+const courseReducer = (state = [], action) => {
   switch(action.type) {
     case 'CREATE_COURSE':
       return [...state, { ...action.course }]
@@ -8,3 +8,5 @@ export default const courseReducer = (state = [], action) => {
       return state
   }
 }
+
+export default courseReducer
